@@ -8,6 +8,8 @@ import { ClientListComponent } from './component/client-list/client-list.compone
 import { ClientAddComponent } from './component/client-add/client-add.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { ProductoListComponent } from './component/producto/components/list/producto-list/producto-list.component';
+import { ProductoComponent } from './component/producto/container/producto/producto.component';
 
 
 @NgModule({
@@ -16,6 +18,8 @@ import { FormsModule } from '@angular/forms';
     NavbarComponent,
     ClientListComponent,
     ClientAddComponent,
+    ProductoListComponent,
+    ProductoComponent,
 
   ],
   imports: [
