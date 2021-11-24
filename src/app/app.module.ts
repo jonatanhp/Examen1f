@@ -10,6 +10,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { ProductoListComponent } from './component/producto/components/list/producto-list/producto-list.component';
 import { ProductoComponent } from './component/producto/container/producto/producto.component';
+import { ProductoNewComponent } from './component/producto/components/forms/producto-new/producto-new.component';
+import { ProductoEditComponent } from './component/producto/components/forms/producto-edit/producto-edit.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -20,6 +23,8 @@ import { ProductoComponent } from './component/producto/container/producto/produ
     ClientAddComponent,
     ProductoListComponent,
     ProductoComponent,
+    ProductoNewComponent,
+    ProductoEditComponent,
 
   ],
   imports: [
@@ -27,6 +32,7 @@ import { ProductoComponent } from './component/producto/container/producto/produ
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
